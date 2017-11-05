@@ -55,7 +55,7 @@ var data = [
     "product_name": "红米Note 5A 标准高透贴膜 透明",
     "sel_status": 2,
     "showType": "gift",
-    "parent_id":"2172700021",
+    "parent_id":"2173500011",
     "sku": "16379"
   },
   {
@@ -69,7 +69,7 @@ var data = [
     "product_name": "红米Note 5A高透软胶保护套（透明无指纹孔） 透明",
     "sel_status": 2,
     "showType": "gift",
-    "parent_id":"2172700021",
+    "parent_id":"2173500011",
     "sku": "16381"
   },
   {

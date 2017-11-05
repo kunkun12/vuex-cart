@@ -1,7 +1,9 @@
 <template>
   <div class="bottom">
-   <span>共 {{count}}件</span>
-   <span>&nbsp&nbsp 总金额:<span class="price">{{totalmoney}}</span>元</span>
+    <p>
+        <span>共 {{count}}件</span>
+        <span>&nbsp&nbsp 总金额:<span class="price">{{totalmoney}}</span>元</span>
+    </p>
   </div>
 </template>
 
@@ -12,16 +14,18 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang='less' scoped>
     .bottom{
       height: 1rem;
       background-color: #F4F4F4;
       position: fixed;
       bottom: 0;
       width: 7.2rem;
-      display: flex;
-      align-items: center;
-      padding: 0.2rem
+      padding-left: 0.3rem;
+      font-size: 0.2rem;
+      p{
+        margin-top: 0.25rem
+      }
     }
     .price{
       font-size: .4rem;
