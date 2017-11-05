@@ -1,0 +1,66 @@
+.cart-container{
+  height: 100%;
+  padding-bottom: 1rem;
+  .item{
+    border-bottom: 1px solid #f6f6f6;
+    background: #FFF;
+    .imgProduct{
+          width: 1.8rem;
+          height: 1.8rem;
+          margin: 0 .2rem;
+          margin-left: 0;
+          position: relative;
+          img{
+            width: 100%
+          }
+    }
+  }
+  .ui-box{
+    padding: .24rem 0;
+    display:flex;
+    justify-content:center;
+    .choose{
+      width: .6rem;
+      padding: 0 .2rem;
+      height: 1.8rem;
+    &.status-0{
+      background: url(../assets/check_normal.png) 50% 50% no-repeat;
+      background-size: .4rem .4rem;
+    }
+    &.status-1{
+      background: url(../assets/check_press.png) 50% 50% no-repeat;
+      background-size: .4rem .4rem;
+    }
+  }
+  .deleteicon{
+    width: .3rem;
+    height: .3rem;
+    margin-left: 1rem;
+    display: inline-block;
+    background: url(../assets/trash.png) 50% 50% no-repeat;
+    background-size: .3rem .3rem;
+  }
+ }
+  .info{
+      flex:1;
+      .name{
+          font-size: .28rem;
+          line-height: .32rem;
+          color: #666;
+          margin-bottom: .12rem;
+          margin-right: .3rem;
+      }
+      .price{
+            font-size: .24rem;
+            color: #999;
+      }
+      .ico_gift{
+            background: #5B77D6;
+            border-radius: .04rem;
+            color: #FFF;
+            padding: .03rem .1rem;
+            font-size: .22rem;
+            margin-right: .1rem;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
+    <title>cart-vuex</title>
+<script type="text/javascript">
+            (function (win){
+                var doc = win.document,
+                html = doc.documentElement;
+                var baseWidth = 720,
+                grids = baseWidth / 100,
+                resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize',
+                recalc = function(){
+                    var clientWidth = html.clientWidth || 320;
+                    if( clientWidth > 720 ){ clientWidth = 720 };
+                    html.style.fontSize = clientWidth / grids + 'px';
+                };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(window);
+    </script>
+    <style type="text/css">body,button,dd,dl,fieldset,form,h1,h2,h3,input,ol,p,td,textarea,th,ul{margin:0;padding:0}html{-webkit-text-size-adjust:none;word-wrap:break-word}h1,h2,h3{font-size:100%}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0;empty-cells:show;font-size:inherit}fieldset,img{border:0}b,cite,em,i,s{font-style:normal}button,input,select,textarea{font-size:100%}body,button,input,option,select,textarea{font-size:normal}a,input,textarea{text-decoration:none;outline:0;-webkit-tap-highlight-color:transparent}img,input,label,li{vertical-align:middle}var{font-style:normal}ins{text-decoration:none}body,html{height:100%;font-size:.2rem;font-family:Arial,Verdana,Sans-serif}</style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
