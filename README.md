@@ -1,4 +1,4 @@
-# 购物车：基于 Vue 2.5 + Vuex的练习
+# 购物车：基于 Vue 2.5 + Vuex
 
 ## Build Setup
 
